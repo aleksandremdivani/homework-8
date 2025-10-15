@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  background-color: #f9f8f7;
+  font-family: "Inter", sans-serif;
+}
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.hero-section {
+  width: 552px;
+  height: 832px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 24px 64px 10px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.header-p {
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 23px;
+}
+.h3-2 {
+  font-size: 23px;
+  line-height: 25px;
+}
+form {
+  margin-top: 43px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+}
+input,
+select {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  outline: none;
+}
+.top-input {
+  width: 100%;
+  height: 54px;
+  padding: 0px 54px 0px 24px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+.card-details {
+  display: flex;
+  justify-content: space-between;
+}
+.cvv-input {
+  height: 54px;
+  width: 120px;
+  padding: 0px 1px 2px 24px;
+  font-size: 18px;
+}
+.date-input,
+select {
+  height: 54px;
+  width: 282px;
+  padding: 0px 110px 0px 25px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+select {
+  appearance: none;
+  background-image: url("../images/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 23px center;
+}
+.checkbox-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.checkbox:checked {
+  background-image: url("../images/checkmark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.terms,
+.checkbox-wrapper p {
+  text-decoration: underline;
+  color: #212628;
+  font-weight: 400;
+  font-size: 16px;
+}
+.checkbox-wrapper p {
+  text-decoration: none;
+  width: 382px;
+}
+.btn {
+  background: linear-gradient(
+    to right,
+    rgba(194, 53, 132, 1),
+    rgba(226, 48, 108, 1),
+    rgba(247, 119, 54, 1),
+    rgba(250, 150, 62, 1)
+  );
+  height: 64px;
+  width: 370px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin: auto;
+}
+span {
+  text-decoration: line-through;
+}
